@@ -222,7 +222,6 @@
     <ClInclude Include="DirectXBase.h" />
     <ClInclude Include="DirectXSample.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Class1.h" />
     <ClInclude Include="RandomAccessReader.h" />
     <ClInclude Include="SoundFileReader.h" />
     <ClInclude Include="XAudio2SoundPlayer.h" />
@@ -237,13 +236,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Class1.cpp" />
     <ClCompile Include="RandomAccessReader.cpp" />
     <ClCompile Include="SoundFileReader.cpp" />
     <ClCompile Include="XAudio2SoundPlayer.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="drop05.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

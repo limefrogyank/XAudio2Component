@@ -8,7 +8,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Class1.cpp" />
     <ClCompile Include="XAudio2SoundPlayer.cpp" />
     <ClCompile Include="DirectXBase.cpp" />
     <ClCompile Include="SoundFileReader.cpp" />
@@ -16,17 +15,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Class1.h" />
     <ClInclude Include="XAudio2SoundPlayer.h" />
     <ClInclude Include="DirectXBase.h" />
     <ClInclude Include="DirectXSample.h" />
     <ClInclude Include="BasicMath.h" />
     <ClInclude Include="SoundFileReader.h" />
     <ClInclude Include="RandomAccessReader.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="drop05.wav">
-      <Filter>Resources</Filter>
-    </Media>
   </ItemGroup>
 </Project>
