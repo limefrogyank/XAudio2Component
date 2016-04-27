@@ -34,7 +34,7 @@ Game.sound.PlaySound(1);  //play the sound in index 1
 ```
 
 Only ADPCM files will play!  If you have PCM files, you can use the command line tool, adpcmencode3.exe,
-which is located in c:\Program Files (x86)\Windows Kits\10\bin\x64\.
+to convert them.  It is located in c:\Program Files (x86)\Windows Kits\10\bin\x64\.
 
-If you don't even have PCM files, download Audacity and convert them for free.
-l
+If you don't even have PCM files, download Audacity and convert them for free!
+
